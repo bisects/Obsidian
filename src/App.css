@@ -1,4 +1,4 @@
-    :root {
+0    :root {
 
     background-color:  #232323;
 
@@ -100,7 +100,7 @@
     }
     
     .num:hover::before {
-        content: "Profile Views";
+        content: "something";
         position: absolute;
         background-color: #020202;
         color: #ffffff;
