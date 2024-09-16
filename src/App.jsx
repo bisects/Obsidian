@@ -185,9 +185,9 @@ function App() {
             <img src={cover} className='songcover' alt='' />
           </a>
           <div className='songinfo'>
-            <p1 className='songtitle'>Rokstar</p1>
-            <p1 className='artist'>by Yeat</p1>
-            <p1 className='album' href>on Up 2 Me</p1>
+            <p1 className='songtitle'>Peruvian Cocaine</p1>
+            <p1 className='artist'>Immortal Technique</p1>
+            <p1 className='album' href>Revolutionary Vol. 2</p1>
           </div>
           <div className='time-label'>
             {formatTime(currentTime)} / {formatTime(maxTime)}
