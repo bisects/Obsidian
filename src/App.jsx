@@ -14,7 +14,7 @@ import git from './images/git2.png';
 function App() {
   const [viewCount, setViewCount] = useState(-100);
   const [currentTime, setCurrentTime] = useState(0);
-  const maxTime = 4:48;
+  const maxTime = 448;
   const [isPlaying, setIsPlaying] = useState(true);
   const [showOverlay, setShowOverlay] = useState(true);
   const [isOverlayClicked, setIsOverlayClicked] = useState(false);
@@ -200,14 +200,14 @@ function App() {
           onClick={() => handleCopyAddress1('https://www.youtube.com/watch?v=8Wc23XVx-cg&t=338s', 'Funny YT Vid')}
           data-label={cssLabel1}
         >
-          PLS click
+          KMS
         </button>
         <button
           className='button1'
           onClick={() => handleCopyAddress('http://obsidian.press', 'Thing')}
           data-label={cssLabel}
         >
-          Funny Website
+          Enslavement
         </button>
       </div>
     </div>
