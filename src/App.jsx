@@ -25,7 +25,7 @@ function App() {
   const [entered, setEntered] = useState(false); // State for animation
 
   // Typewriter effect
-  const [bioText, setBioText] = useState("Just an average Discordian");
+  const [bioText, setBioText] = useState("Im a bolivian scammer");
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
 
@@ -156,7 +156,7 @@ function App() {
         <p1 className='num'>{viewCount}</p1>
         <img src={pfp} className='pfp' alt="Profile Picture" />
         <div className='info' >
-          <h1 className='name'>Obsidian</h1>
+          <h1 className='name'>OBS</h1>
           <h1 className='bio'>{bio}</h1> {/* Bio with typewriter effect */}
         </div>
         <div className='links'>
@@ -181,7 +181,7 @@ function App() {
           <div className='progress-bar-container'>
             <div className='progress-bar' style={{ width: `${(currentTime / maxTime) * 100}%` }} />
           </div>
-          <a href='https://soundcloud.com/trapdailysounds/glokk40spaz-sg-lul-ki-stop-playin-prod-by-khroam' target='_blank' rel='noopener noreferrer'>
+          <a href='https://www.youtube.com/watch?v=ZPncMw5oWZs' target='_blank' rel='noopener noreferrer'>
             <img src={cover} className='songcover' alt='' />
           </a>
           <div className='songinfo'>
