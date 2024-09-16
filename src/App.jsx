@@ -119,7 +119,7 @@ function App() {
   
   function audioPlay() {
     var audio = document.getElementById('audio');
-    audio.volume = 1;
+    audio.volume = 10;
     audio.play();
   }
 
