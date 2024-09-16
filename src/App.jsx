@@ -14,7 +14,7 @@ import git from './images/git2.png';
 function App() {
   const [viewCount, setViewCount] = useState(-100);
   const [currentTime, setCurrentTime] = useState(0);
-  const maxTime = 31414;
+  const maxTime = 4:48;
   const [isPlaying, setIsPlaying] = useState(true);
   const [showOverlay, setShowOverlay] = useState(true);
   const [isOverlayClicked, setIsOverlayClicked] = useState(false);
@@ -119,7 +119,7 @@ function App() {
   
   function audioPlay() {
     var audio = document.getElementById('audio');
-    audio.volume = 10;
+    audio.volume = 1;
     audio.play();
   }
 
